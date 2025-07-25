@@ -1,4 +1,4 @@
-# 🧠 SKG Metadata Analysis
+# 🧠 SKG Metadata Comparative Analysis
 
 This repository supports the study presented in:
 
