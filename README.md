@@ -14,29 +14,6 @@ We investigate whether category annotations (such as tasks and methods) for AI-r
 
 ---
 
-## 📁 Project Structure
-
-.
-├── data/
-│ ├── data.json # Automatically created metadata (raw SKG annotations)
-│ ├── all_data.json # Intermediate merged version
-│ ├── initial_dataset.json # Cleaned and unified dataset (auto-generated)
-│ └── gold_standard.json # Manually curated annotations (ground truth)
-│
-├── src/
-│ ├── get_papers_with_code_categories.py
-│ ├── get_openalex_categories.py
-│ ├── get_openaire_categories.py
-│ └── integrate_all_3_souces.py
-│
-├── get_initial_dataset.ipynb # Creates initial_dataset.json from data.json
-├── analysis_initial_golden.ipynb # Analysis comparing initial vs. gold-standard
-├── analysis_initial_golden.pdf # Final Sci-K 2025 paper
-└── README.md
-
-
----
-
 ## ⚙️ Pipeline Overview
 
 ### 🔹 Step 1: Extract Raw Annotations
