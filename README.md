@@ -1,3 +1,7 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16422339.svg)](https://doi.org/10.5281/zenodo.16422339)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16422144.svg)](https://doi.org/10.5281/zenodo.16422144)
+
+
 # 🧠 SKG Metadata Comparative Analysis
 
 This repository supports the study presented in:
