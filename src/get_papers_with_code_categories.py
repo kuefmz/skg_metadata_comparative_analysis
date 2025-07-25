@@ -107,9 +107,6 @@ def update_or_add_to_data_json(data, pwc_entry):
             },
             "openaire categories": {
                 "subjects": []
-            },
-            "crossref categories": {
-                "subjects": []
             }
         }
         data.append(new_entry)

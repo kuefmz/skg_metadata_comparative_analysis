@@ -4,8 +4,8 @@
         "doi": "10.48550/arxiv.2404.06395",
         "abstract": "The burgeoning interest in developing Large Language Models (LLMs) with up to trillion parameters has been met with concerns regarding resource efficiency and practical expense, particularly given the immense cost of experimentation. This scenario underscores the importance of exploring the potential of Small Language Models (SLMs) as a resource-efficient alternative. In this context, we introduce MiniCPM, specifically the 1.2B and 2.4B non-embedding parameter variants, not only excel in their respective categories but also demonstrate capabilities on par with 7B-13B LLMs. While focusing on SLMs, our approach exhibits scalability in both model and data dimensions for future LLM research. Regarding model scaling, we employ extensive model wind tunnel experiments for stable and optimal scaling. For data scaling, we introduce a Warmup-Stable-Decay (WSD) learning rate scheduler (LRS), conducive to continuous training and domain adaptation. We present an in-depth analysis of the intriguing training dynamics that occurred in the WSD LRS. With WSD LRS, we are now able to efficiently study data-model scaling law without extensive retraining experiments on both axes of model and data, from which we derive the much higher compute optimal data-model ratio than Chinchilla Optimal. Additionally, we introduce MiniCPM family, including MiniCPM-DPO, MiniCPM-MoE and MiniCPM-128K, whose excellent performance further cementing MiniCPM's foundation in diverse SLM applications. MiniCPM models are available publicly at https://github.com/OpenBMB/MiniCPM .",
         "orkg_categories_flat": [
-            "small language models (slms) survey",
-            "generic"
+            "generic",
+            "small language models (slms) survey"
         ],
         "papers_with_code_categories_flat": [
             "chinchilla",
@@ -38,8 +38,8 @@
         "doi": "10.18653/v1/2024.acl-long.841",
         "abstract": "Language models (LMs) have become ubiquitous in both NLP research and in commercial product offerings. As their commercial importance has surged, the most powerful models have become closed off, gated behind proprietary interfaces, with important details of their training data, architectures, and development undisclosed. Given the importance of these details in scientifically studying these models, including their biases and potential risks, we believe it is essential for the research community to have access to powerful, truly open LMs. To this end, we have built OLMo, a competitive, truly Open Language Model, to enable the scientific study of language models. Unlike most prior efforts that have only released model weights and inference code, we release OLMo alongside open training data and training and evaluation code. We hope this release will empower the open research community and inspire a new wave of innovation.",
         "orkg_categories_flat": [
-            "small language models (slms) survey",
-            "generic"
+            "generic",
+            "small language models (slms) survey"
         ],
         "papers_with_code_categories_flat": [
             "language modeling",
@@ -60,18 +60,18 @@
         "doi": "10.1016/j.knosys.2024.112155",
         "abstract": "The design and development of text-based knowledge graph completion (KGC) methods leveraging textual entity descriptions are at the forefront of research. These methods involve advanced optimization techniques such as soft prompts and contrastive learning to enhance KGC models. The effectiveness of text-based methods largely hinges on the quality and richness of the training data. Large language models (LLMs) can utilize straightforward prompts to alter text data, thereby enabling data augmentation for KGC. Nevertheless, LLMs typically demand substantial computational resources. To address these issues, we introduce a framework termed constrained prompts for KGC (CP-KGC). This CP-KGC framework designs prompts that adapt to different datasets to enhance semantic richness. Additionally, CP-KGC employs a context constraint strategy to effectively identify polysemous entities within KGC datasets. Through extensive experimentation, we have verified the effectiveness of this framework. Even after quantization, the LLM (Qwen-7B-Chat-int4) still enhances the performance of text-based KGC methods \\footnote{Code and datasets are available at \\href{https://github.com/sjlmg/CP-KGC}{https://github.com/sjlmg/CP-KGC}}. This study extends the performance limits of existing models and promotes further integration of KGC with LLMs.",
         "orkg_categories_flat": [
-            "data truncation in plms",
             "context constraint strategy",
+            "contrastive learning",
+            "data truncation in plms",
+            "effective prompt design for llm-driven data augmentation",
             "framework termed constrained prompts for kgc (cp-kgc)",
             "polysemy in textual kgc inputs",
-            "soft prompts",
             "semantic compression",
-            "effective prompt design for llm-driven data augmentation",
-            "semantic quality of entity descriptions",
-            "text-based knowledge graph completion",
-            "use of quantized and full-scale llms (e.g., qwen-7b, gpt-3.5)",
             "semantic expansion",
-            "contrastive learning"
+            "semantic quality of entity descriptions",
+            "soft prompts",
+            "text-based knowledge graph completion",
+            "use of quantized and full-scale llms (e.g., qwen-7b, gpt-3.5)"
         ],
         "papers_with_code_categories_flat": [
             "contrastive learning",
@@ -112,8 +112,8 @@
         "doi": "10.1109/cvpr52733.2024.02065",
         "abstract": "Accepted at CVPR2024, data available at https://xdeng7.github.io/coconut.github.io/",
         "orkg_categories_flat": [
-            "universal segmentation",
-            "object detection"
+            "object detection",
+            "universal segmentation"
         ],
         "papers_with_code_categories_flat": [
             "panoptic segmentation",
@@ -170,9 +170,9 @@
         "doi": "10.48550/arxiv.2502.13297",
         "abstract": "Natural language understanding (NLU) is a task that enables machines to understand human language. Some tasks, such as stance detection and sentiment analysis, are closely related to individual subjective perspectives, thus termed individual-level NLU. Previously, these tasks are often simplified to text-level NLU tasks, ignoring individual factors. This not only makes inference difficult and unexplainable but often results in a large number of label errors when creating datasets. To address the above limitations, we propose a new NLU annotation guideline based on individual-level factors. Specifically, we incorporate other posts by the same individual and then annotate individual subjective perspectives after considering all individual posts. We use this guideline to expand and re-annotate the stance detection and topic-based sentiment analysis datasets. We find that error rates in the samples were as high as 31.7\\% and 23.3\\%. We further use large language models to conduct experiments on the re-annotation datasets and find that the large language models perform well on both datasets after adding individual factors. Both GPT-4o and Llama3-70B can achieve an accuracy greater than 87\\% on the re-annotation datasets. We also verify the effectiveness of individual factors through ablation studies. We call on future researchers to add individual factors when creating such datasets. Our re-annotation dataset can be found at https://github.com/24yearsoldstudent/Individual-NLU",
         "orkg_categories_flat": [
-            "stance detection",
             "natural language processing",
-            "sentiment analysis"
+            "sentiment analysis",
+            "stance detection"
         ],
         "papers_with_code_categories_flat": [
             "natural language understanding",
@@ -203,9 +203,9 @@
         "doi": "10.1007/978-3-031-77792-9_26",
         "abstract": "Presentation given by Valentina Carriero about the paper with the same title at the 24th International Conference on Knowledge Engineering and Knowledge Management - Amsterdam, Netherlands - November 28, 2024.",
         "orkg_categories_flat": [
-            "prompt engineering",
+            "llms",
             "procedural knowledge extraction",
-            "llms"
+            "prompt engineering"
         ],
         "papers_with_code_categories_flat": [
             "language modeling",
@@ -284,8 +284,8 @@
         "doi": "10.48550/arxiv.2401.02385",
         "abstract": "We present TinyLlama, a compact 1.1B language model pretrained on around 1 trillion tokens for approximately 3 epochs. Building on the architecture and tokenizer of Llama 2, TinyLlama leverages various advances contributed by the open-source community (e.g., FlashAttention and Lit-GPT), achieving better computational efficiency. Despite its relatively small size, TinyLlama demonstrates remarkable performance in a series of downstream tasks. It significantly outperforms existing open-source language models with comparable sizes. Our model checkpoints and code are publicly available on GitHub at https://github.com/jzhang38/TinyLlama.",
         "orkg_categories_flat": [
-            "small language models (slms) survey",
-            "generic"
+            "generic",
+            "small language models (slms) survey"
         ],
         "papers_with_code_categories_flat": [
             "attention",
@@ -469,11 +469,11 @@
         "doi": "10.18653/v1/2024.acl-long.197",
         "abstract": "The reflection capacity of Large Language Model (LLM) has garnered extensive attention. A post-hoc prompting strategy, e.g., reflexion and self-refine, refines LLM's response based on self-evaluated or external feedback. However, recent research indicates without external feedback, LLM's intrinsic reflection is unstable. Our investigation unveils that the key bottleneck is the quality of the self-evaluated feedback. We find LLMs often exhibit overconfidence or high randomness when self-evaluate, offering stubborn or inconsistent feedback, which causes poor reflection. To remedy this, we advocate Self-Contrast: It adaptively explores diverse solving perspectives tailored to the request, contrasts the differences, and summarizes these discrepancies into a checklist which could be used to re-examine and eliminate discrepancies. Our method endows LLM with diverse perspectives to alleviate stubborn biases. Moreover, their discrepancies indicate potential errors or inherent uncertainties that LLM often overlooks. Reflecting upon these can catalyze more accurate and stable reflection. Experiments conducted on a series of reasoning and translation tasks with different LLMs serve to underscore the effectiveness and generality of our strategy.",
         "orkg_categories_flat": [
+            "commonmt",
             "exploring self-refine methods in large language models",
-            "svamp",
             "gsm8k",
             "self-contrast",
-            "commonmt"
+            "svamp"
         ],
         "papers_with_code_categories_flat": [
             "language modeling",
@@ -501,12 +501,12 @@
         "doi": "10.48550/arxiv.2405.00402",
         "abstract": "The alignments of reasoning abilities between smaller and larger Language Models are largely conducted via Supervised Fine-Tuning (SFT) using demonstrations generated from robust Large Language Models (LLMs). Although these approaches deliver more performant models, they do not show sufficiently strong generalization ability as the training only relies on the provided demonstrations.  In this paper, we propose the Self-refine Instruction-tuning method that elicits Smaller Language Models to self-refine their abilities. Our approach is based on a two-stage process, where reasoning abilities are first transferred between LLMs and Small Language Models (SLMs) via Instruction-tuning on demonstrations provided by LLMs, and then the instructed models Self-refine their abilities through preference optimization strategies. In particular, the second phase operates refinement heuristics based on the Direct Preference Optimization algorithm, where the SLMs are elicited to deliver a series of reasoning paths by automatically sampling the generated responses and providing rewards using ground truths from the LLMs. Results obtained on commonsense and math reasoning tasks show that this approach significantly outperforms Instruction-tuning in both in-domain and out-domain scenarios, aligning the reasoning abilities of Smaller and Larger Language Models.",
         "orkg_categories_flat": [
+            "common sense question answering",
             "exploring self-refine methods in large language models",
             "open book question answering",
-            "srit",
+            "physical interaction question answering",
             "social interaction question answering",
-            "common sense question answering",
-            "physical interaction question answering"
+            "srit"
         ],
         "papers_with_code_categories_flat": [
             "math"
@@ -532,8 +532,8 @@
         "abstract": "Recent studies show that large language models (LLMs) improve their performance through self-feedback on certain tasks while degrade on others. We discovered that such a contrary is due to LLM's bias in evaluating their own output. In this paper, we formally define LLM's self-bias - the tendency to favor its own generation - using two statistics. We analyze six LLMs (GPT-4, GPT-3.5, Gemini, LLaMA2, Mixtral and DeepSeek) on translation, constrained text generation, and mathematical reasoning tasks. We find that self-bias is prevalent in all examined LLMs across multiple languages and tasks. Our analysis reveals that while the self-refine pipeline improves the fluency and understandability of model outputs, it further amplifies self-bias. To mitigate such biases, we discover that larger model size and external feedback with accurate assessment can significantly reduce bias in the self-refine pipeline, leading to actual performance improvement in downstream tasks. The code and data are released at https://github.com/xu1998hz/llm_self_bias.",
         "orkg_categories_flat": [
             "exploring self-refine methods in large language models",
-            "mqm",
             "flores-200",
+            "mqm",
             "self-bias"
         ],
         "papers_with_code_categories_flat": [
@@ -1143,11 +1143,11 @@
         "doi": "10.48550/arxiv.2307.06908",
         "abstract": "Before deploying a language model (LM) within a given domain, it is important to measure its tendency to generate factually incorrect information in that domain. Existing methods for factuality evaluation of LLM generation focus on facts sampled from the LM itself, and thus do not control the set of evaluated facts and might under-represent domain specific or rare facts. We propose FACTOR: Factual Assessment via Corpus TransfORmation, a scalable approach for evaluating LM factuality. FACTOR automatically transforms a factual corpus of interest into a benchmark evaluating an LM's propensity to generate true facts from the corpus vs. similar but incorrect statements. We use our framework to create three benchmarks: Wiki-FACTOR, News-FACTOR and Expert-FACTOR. We show that: (i) our benchmark scores increase with model size and improve when the LM is augmented with retrieval; (ii) benchmark score and perplexity do not always agree on model ranking; (iii) when perplexity and benchmark score disagree, the latter better reflects factuality in open-ended generation, as measured by human annotators. We make our data and code publicly available in https://github.com/AI21Labs/factor.",
         "orkg_categories_flat": [
-            "exploration of llm hallucination benchmarks",
-            "likelihood",
             "ask inputquestion",
-            "multi-choice qa",
-            "answer"
+            "exploration of llm hallucination benchmarks",
+            "task labelanswer",
+            "task metriclikelihood",
+            "task typemulti-choice qa"
         ],
         "papers_with_code_categories_flat": [
             "focus",
@@ -1184,10 +1184,10 @@
         "abstract": "Large language models (LLMs) have achieved dramatic proficiency over NLP tasks with normal length. Recently, multiple studies have committed to extending the context length and enhancing the long text modeling capabilities of LLMs. To comprehensively evaluate the long context ability of LLMs, we propose BAMBOO, a multi-task long context benchmark. BAMBOO has been designed with four principles: comprehensive capacity evaluation, avoidance of data contamination, accurate automatic evaluation, and different length levels. It consists of 10 datasets from 5 different long text understanding tasks, i.e. question answering, hallucination detection, text sorting, language modeling, and code completion, to cover core capacities and various domains of LLMs. We conduct experiments with five long context models on BAMBOO and further discuss four key research questions of long text. We also qualitatively analyze current long context models and point out future directions for enhancing long text modeling capacities. We release our data, prompts, and code at https://github.com/RUCAIBox/BAMBOO.",
         "orkg_categories_flat": [
             "exploration of llm hallucination benchmarks",
-            "summary",
-            "precision",
-            "paper",
-            "detection"
+            "task inputpaper",
+            "task labelsummary",
+            "task metricprecision",
+            "task typedetection"
         ],
         "papers_with_code_categories_flat": [
             "code completion",
@@ -1471,8 +1471,8 @@
         "doi": "10.18653/v1/2024.naacl-long.20",
         "abstract": "Evaluating retrieval-augmented generation (RAG) systems traditionally relies on hand annotations for input queries, passages to retrieve, and responses to generate. We introduce ARES, an Automated RAG Evaluation System, for evaluating RAG systems along the dimensions of context relevance, answer faithfulness, and answer relevance. By creating its own synthetic training data, ARES finetunes lightweight LM judges to assess the quality of individual RAG components. To mitigate potential prediction errors, ARES utilizes a small set of human-annotated datapoints for prediction-powered inference (PPI). Across eight different knowledge-intensive tasks in KILT, SuperGLUE, and AIS, ARES accurately evaluates RAG systems while using only a few hundred human annotations during evaluation. Furthermore, ARES judges remain effective across domain shifts, proving accurate even after changing the type of queries and/or documents used in the evaluated RAG systems. We make our code and datasets publicly available on Github.",
         "orkg_categories_flat": [
-            "exploration of fine-tuning methods in single-llm evaluation in llm-as-judges",
-            "ares"
+            "ares",
+            "exploration of fine-tuning methods in single-llm evaluation in llm-as-judges"
         ],
         "papers_with_code_categories_flat": [
             "activation functions",
@@ -1534,8 +1534,8 @@
         "doi": "10.48550/arxiv.2410.16256",
         "abstract": "Technical Report, Code and Models: https://github.com/open-compass/CompassJudger",
         "orkg_categories_flat": [
-            "exploration of fine-tuning methods in single-llm evaluation in llm-as-judges",
-            "compassjudger-1"
+            "compassjudger-1",
+            "exploration of fine-tuning methods in single-llm evaluation in llm-as-judges"
         ],
         "papers_with_code_categories_flat": [
             "all",
@@ -1565,12 +1565,12 @@
         "doi": "10.1057/s41599-024-03407-5",
         "abstract": "<jats:title>Abstract</jats:title><jats:p>Leveraging the synergy between causal knowledge graphs and a large language model (LLM), our study introduces a groundbreaking approach for computational hypothesis generation in psychology. We analyzed 43,312 psychology articles using a LLM to extract causal relation pairs. This analysis produced a specialized causal graph for psychology. Applying link prediction algorithms, we generated 130 potential psychological hypotheses focusing on “well-being”, then compared them against research ideas conceived by doctoral scholars and those produced solely by the LLM. Interestingly, our combined approach of a LLM and causal graphs mirrored the expert-level insights in terms of novelty, clearly surpassing the LLM-only hypotheses (<jats:italic>t</jats:italic>(59) = 3.34,<jats:italic>p</jats:italic> = 0.007 and<jats:italic>t</jats:italic>(59) = 4.32,<jats:italic>p</jats:italic> &lt; 0.001, respectively). This alignment was further corroborated using deep semantic analysis. Our results show that combining LLM with machine learning techniques such as causal knowledge graphs can revolutionize automated discovery in psychology, extracting novel insights from the extensive literature. This work stands at the crossroads of psychology and artificial intelligence, championing a new enriched paradigm for data-driven hypothesis generation in psychological research.</jats:p>",
         "orkg_categories_flat": [
+            "causal pair extraction",
             "combining causal kg with llm",
             "computational hypothesis generation",
-            "psychological hypothesis generation",
             "machine learning",
-            "semantic analysis",
-            "causal pair extraction"
+            "psychological hypothesis generation",
+            "semantic analysis"
         ],
         "papers_with_code_categories_flat": [
             "articles",
@@ -1608,8 +1608,8 @@
         "doi": "10.48550/arxiv.2408.00118",
         "abstract": "In this work, we introduce Gemma 2, a new addition to the Gemma family of lightweight, state-of-the-art open models, ranging in scale from 2 billion to 27 billion parameters. In this new version, we apply several known technical modifications to the Transformer architecture, such as interleaving local-global attentions (Beltagy et al., 2020a) and group-query attention (Ainslie et al., 2023). We also train the 2B and 9B models with knowledge distillation (Hinton et al., 2015) instead of next token prediction. The resulting models deliver the best performance for their size, and even offer competitive alternatives to models that are 2-3 times bigger. We release all our models to the community.",
         "orkg_categories_flat": [
-            "small language models (slms) survey",
-            "generic"
+            "generic",
+            "small language models (slms) survey"
         ],
         "papers_with_code_categories_flat": [
             "absolute position encodings",
@@ -1675,8 +1675,8 @@
         "doi": "10.48550/arxiv.2402.14905",
         "abstract": "ICML 2024. Code is available at https://github.com/facebookresearch/MobileLLM",
         "orkg_categories_flat": [
-            "small language models (slms) survey",
-            "generic"
+            "generic",
+            "small language models (slms) survey"
         ],
         "papers_with_code_categories_flat": [
             "attention",
@@ -1715,8 +1715,8 @@
         "doi": "10.48550/arxiv.2407.14679",
         "abstract": "Large language models (LLMs) targeting different deployment scales and sizes are currently produced by training each variant from scratch; this is extremely compute-intensive. In this paper, we investigate if pruning an existing LLM and then re-training it with a fraction (&lt;3%) of the original training data can be a suitable alternative to repeated, full retraining. To this end, we develop a set of practical and effective compression best practices for LLMs that combine depth, width, attention and MLP pruning with knowledge distillation-based retraining; we arrive at these best practices through a detailed empirical exploration of pruning strategies for each axis, methods to combine axes, distillation strategies, and search techniques for arriving at optimal compressed architectures. We use this guide to compress the Nemotron-4 family of LLMs by a factor of 2-4x, and compare their performance to similarly-sized models on a variety of language modeling tasks. Deriving 8B and 4B models from an already pretrained 15B model using our approach requires up to 40x fewer training tokens per model compared to training from scratch; this results in compute cost savings of 1.8x for training the full model family (15B, 8B, and 4B). Minitron models exhibit up to a 16% improvement in MMLU scores compared to training from scratch, perform comparably to other community models such as Mistral 7B, Gemma 7B and Llama-3 8B, and outperform state-of-the-art compression techniques from the literature. We have open-sourced Minitron model weights on Huggingface, with corresponding supplementary material including example code available on GitHub.",
         "orkg_categories_flat": [
-            "small language models (slms) survey",
-            "generic"
+            "generic",
+            "small language models (slms) survey"
         ],
         "papers_with_code_categories_flat": [
             "attention",
@@ -1793,11 +1793,11 @@
         "doi": "10.1145/3649825",
         "abstract": "<jats:p>Pre-trained code language models have achieved promising performance in code generation and improved the programming efficiency of human developers. However, their self-refinement capability is typically overlooked by the existing evaluations of code LMs, which focus only on the accuracy of the one-time prediction. For the cases when code LMs fail to implement the correct program, developers actually find it hard to debug and fix the faulty prediction since it is not written by the developers themselves. Unfortunately, our study reveals that code LMs cannot efficiently self-refine their faulty generations as well.</jats:p>           <jats:p>In this paper, we propose CYCLE framework, learning to self-refine the faulty generation according to the available feedback, such as the execution results reported by the test suites. We evaluate CYCLE on three popular code generation benchmarks, HumanEval, MBPP, and APPS. The results reveal that CYCLE successfully maintains, sometimes improves, the quality of one-time code generation, while significantly improving the self-refinement capability of code LMs. We implement four variants of CYCLE with varied numbers of parameters across 350M, 1B, 2B, and 3B, and the experiments show that CYCLE consistently boosts the code generation performance, by up to 63.5</jats:p>",
         "orkg_categories_flat": [
-            "exploring self-refine methods in large language models",
-            "mbpp-s",
-            "humaneval",
+            "apps",
             "cycle",
-            "apps"
+            "exploring self-refine methods in large language models",
+            "humaneval",
+            "mbpp-s"
         ],
         "papers_with_code_categories_flat": [
             "code generation",
@@ -1831,11 +1831,11 @@
         "doi": "10.18653/v1/2024.emnlp-main.172",
         "abstract": "Camera-ready for EMNLP 2024",
         "orkg_categories_flat": [
-            "exploring self-refine methods in large language models",
             "e-snli",
+            "exp-refiner",
+            "exploring self-refine methods in large language models",
             "qasc",
-            "worldtree",
-            "exp-refiner"
+            "worldtree"
         ],
         "papers_with_code_categories_flat": [
             "automated theorem proving",
@@ -1870,8 +1870,8 @@
         "doi": "10.48550/arxiv.2410.12187",
         "abstract": "Large language models (LLMs) excel in various tasks but face deployment challenges due to hardware constraints. We propose density-aware post-training weight-only quantization (DAQ), which has two stages: 1) density-centric alignment, which identifies the center of high-density weights and centers the dynamic range on this point to align high-density weight regions with floating-point high-precision regions; 2) learnable dynamic range adjustment, which adjusts the dynamic range by optimizing quantization parameters (i.e., scale and zero-point) based on the impact of weights on the model output. Experiments on LLaMA and LLaMA-2 show that DAQ consistently outperforms the best baseline method, reducing perplexity loss by an average of 22.8% on LLaMA and 19.6% on LLaMA-2. Our code is available at https://github.com/LuoYingSong/DAQ.",
         "orkg_categories_flat": [
-            "weight-only quantization methods for llms",
-            "daq"
+            "daq",
+            "weight-only quantization methods for llms"
         ],
         "papers_with_code_categories_flat": [
             "align",
@@ -1939,8 +1939,8 @@
         "doi": "10.48550/arxiv.2411.00850",
         "abstract": "Large language models (LLMs) show impressive performance in solving complex language tasks. However, its large number of parameters presents significant challenges for the deployment. So, compressing LLMs to low bits can enable to deploy on resource-constrained devices. To address this problem, we propose gradient-aware weight quantization (GWQ), the first quantization approach for low-bit weight quantization that leverages gradients to localize outliers, requiring only a minimal amount of calibration data for outlier detection. GWQ retains the top 1\\% outliers preferentially at FP16 precision, while the remaining non-outlier weights are stored in a low-bit. We widely evaluate GWQ on different task include language modeling, grounding detection, massive multitask language understanding and vision-language question and answering. Results show that models quantified by GWQ performs better than other quantization method. During quantization process, GWQ only need one calibration set to realize effective quant. Also, GWQ achieves 1.2x inference speedup in comparison to the original model and effectively reduces the inference memory.",
         "orkg_categories_flat": [
-            "weight-only quantization methods for llms",
-            "gwq"
+            "gwq",
+            "weight-only quantization methods for llms"
         ],
         "papers_with_code_categories_flat": [
             "outlier detection",
@@ -2003,9 +2003,9 @@
         "doi": "10.48550/arxiv.2407.09413",
         "abstract": "Seeking answers to questions within long scientific research articles is a crucial area of study that aids readers in quickly addressing their inquiries. However, existing question-answering (QA) datasets based on scientific papers are limited in scale and focus solely on textual content. We introduce SPIQA (Scientific Paper Image Question Answering), the first large-scale QA dataset specifically designed to interpret complex figures and tables within the context of scientific research articles across various domains of computer science. Leveraging the breadth of expertise and ability of multimodal large language models (MLLMs) to understand figures, we employ automatic and manual curation to create the dataset. We craft an information-seeking task on interleaved images and text that involves multiple images covering plots, charts, tables, schematic diagrams, and result visualizations. SPIQA comprises 270K questions divided into training, validation, and three different evaluation splits. Through extensive experiments with 12 prominent foundational models, we evaluate the ability of current multimodal systems to comprehend the nuanced aspects of research articles. Additionally, we propose a Chain-of-Thought (CoT) evaluation strategy with in-context retrieval that allows fine-grained, step-by-step assessment and improves model performance. We further explore the upper bounds of performance enhancement with additional textual information, highlighting its promising potential for future research and the dataset's impact on revolutionizing how we interact with scientific literature.",
         "orkg_categories_flat": [
-            "scientific question answering",
             "computer science",
-            "figure/table understanding"
+            "figure/table understanding",
+            "scientific question answering"
         ],
         "papers_with_code_categories_flat": [
             "articles",
@@ -2038,10 +2038,10 @@
         "doi": "10.1007/s10462-024-10902-3",
         "abstract": "I have added all the three tables to the review",
         "orkg_categories_flat": [
-            "paper classification",
-            "support vector machine",
             "ai in systematic literature review",
-            "any"
+            "any",
+            "paper classification",
+            "support vector machine"
         ],
         "papers_with_code_categories_flat": [
             "general",
@@ -2138,9 +2138,9 @@
         "doi": "10.18653/v1/2024.emnlp-main.1163",
         "abstract": "18 pages, Accepted to EMNLP 2024",
         "orkg_categories_flat": [
-            "scientific question answering",
+            "deep reading and multi-document qa",
             "scientific papers",
-            "deep reading and multi-document qa"
+            "scientific question answering"
         ],
         "papers_with_code_categories_flat": [
             "articles",
@@ -2173,9 +2173,9 @@
         "doi": "10.48550/arxiv.2304.01373",
         "abstract": "Code at https://github.com/EleutherAI/pythia",
         "orkg_categories_flat": [
-            "transformer model",
             "causal language modeling",
-            "large language models (llms)"
+            "large language models (llms)",
+            "transformer model"
         ],
         "papers_with_code_categories_flat": [
             "common sense reasoning",
@@ -2228,9 +2228,9 @@
         "doi": "10.48550/arxiv.2205.05131",
         "abstract": "Existing pre-trained models are generally geared towards a particular class of problems. To date, there seems to be still no consensus on what the right architecture and pre-training setup should be. This paper presents a unified framework for pre-training models that are universally effective across datasets and setups. We begin by disentangling architectural archetypes with pre-training objectives -- two concepts that are commonly conflated. Next, we present a generalized &amp; unified perspective for self-supervision in NLP and show how different pre-training objectives can be cast as one another and how interpolating between different objectives can be effective. We then propose Mixture-of-Denoisers (MoD), a pre-training objective that combines diverse pre-training paradigms together. We furthermore introduce a notion of mode switching, wherein downstream fine-tuning is associated with specific pre-training schemes. We conduct extensive ablative experiments to compare multiple pre-training objectives and find that our method pushes the Pareto-frontier by outperforming T5 &amp; GPT-like models across multiple diverse setups. By scaling our model up to 20B parameters, we achieve SOTA performance on 50 well-established supervised finetuning based NLP tasks. Our model also achieve strong results at in-context learning, outperforming 175B GPT-3 on zero-shot SuperGLUE and tripling the performance of T5-XXL on one-shot summarization. On 0-shot MMLU, UL2 20B outperforms T0 and T5 models. UL2 20B also works well with chain-of-thought prompting and reasoning, making it an appealing choice for research into reasoning at a small to medium scale of 20B parameters. Finally, we apply FLAN instruction tuning to the UL2 20B model, achieving MMLU and Big-Bench scores competitive to FLAN-PaLM 62B. We release Flax-based T5X checkpoints for the UL2 20B &amp; Flan-UL2 20B.",
         "orkg_categories_flat": [
-            "transformer model",
+            "large language models (llms)",
             "mixture-of-denoisers, which combines diverse pretraining paradigms together",
-            "large language models (llms)"
+            "transformer model"
         ],
         "papers_with_code_categories_flat": [
             "15 ways to contact how can i speak to someone at delta airlines",
@@ -2325,9 +2325,9 @@
         "doi": "10.48550/arxiv.2307.09288",
         "abstract": "In this work, we develop and release Llama 2, a collection of pretrained and fine-tuned large language models (LLMs) ranging in scale from 7 billion to 70 billion parameters. Our fine-tuned LLMs, called Llama 2-Chat, are optimized for dialogue use cases. Our models outperform open-source chat models on most benchmarks we tested, and based on our human evaluations for helpfulness and safety, may be a suitable substitute for closed-source models. We provide a detailed description of our approach to fine-tuning and safety improvements of Llama 2-Chat in order to enable the community to build on our work and contribute to the responsible development of LLMs.",
         "orkg_categories_flat": [
-            "transformer model",
             "large language models (llms)",
-            "self-supervized learning"
+            "self-supervized learning",
+            "transformer model"
         ],
         "papers_with_code_categories_flat": [
             "",
@@ -2406,8 +2406,8 @@
         "doi": "10.18653/v1/2023.emnlp-main.468",
         "abstract": "The performance of large language models (LLMs) on existing reasoning benchmarks has significantly improved over the past years. In response, we present JEEBench, a considerably more challenging benchmark dataset for evaluating the problem solving abilities of LLMs. We curate 515 challenging pre-engineering mathematics, physics and chemistry problems from the highly competitive IIT JEE-Advanced exam. Long-horizon reasoning on top of deep in-domain knowledge is essential for solving problems in this benchmark. Our evaluation on various open-source and proprietary models reveals that the highest performance, even after using techniques like self-consistency, self-refinement and chain-of-thought prompting, is less than 40%. The typical failure modes of GPT-4, the best model, are errors in algebraic manipulation, difficulty in grounding abstract concepts into mathematical equations accurately and failure in retrieving relevant domain-specific concepts. We also observe that by mere prompting, GPT-4 is unable to assess risk introduced by negative marking for incorrect answers. For this, we develop a post-hoc confidence-thresholding method over self-consistency, which enables effective response selection. We hope that our challenging benchmark will guide future re-search in problem-solving using LLMs.",
         "orkg_categories_flat": [
-            "scientific problem solving benchmark to evaluate the problem solving abilities of large-language-models",
-            "large language models in general science"
+            "large language models in general science",
+            "scientific problem solving benchmark to evaluate the problem solving abilities of large-language-models"
         ],
         "papers_with_code_categories_flat": [
             "absolute position encodings",
@@ -2480,8 +2480,8 @@
         "doi": "10.48550/arxiv.2304.05376",
         "abstract": "<jats:title>Abstract</jats:title><jats:p>Large language models (LLMs) have shown strong performance in tasks across domains but struggle with chemistry-related problems. These models also lack access to external knowledge sources, limiting their usefulness in scientific applications. We introduce ChemCrow, an LLM chemistry agent designed to accomplish tasks across organic synthesis, drug discovery and materials design. By integrating 18 expert-designed tools and using GPT-4 as the LLM, ChemCrow augments the LLM performance in chemistry, and new capabilities emerge. Our agent autonomously planned and executed the syntheses of an insect repellent and three organocatalysts and guided the discovery of a novel chromophore. Our evaluation, including both LLM and expert assessments, demonstrates ChemCrow’s effectiveness in automating a diverse set of chemical tasks. Our work not only aids expert chemists and lowers barriers for non-experts but also fosters scientific advancement by bridging the gap between experimental and computational chemistry.</jats:p>",
         "orkg_categories_flat": [
-            "large language models in general science",
-            "a novel llm-powered method for integrating computational tools in chemistry"
+            "a novel llm-powered method for integrating computational tools in chemistry",
+            "large language models in general science"
         ],
         "papers_with_code_categories_flat": [
             "absolute position encodings",
@@ -2550,8 +2550,8 @@
         "doi": "10.48550/arxiv.2306.08568",
         "abstract": "Code Large Language Models (Code LLMs), such as StarCoder, have demonstrated exceptional performance in code-related tasks. However, most existing models are solely pre-trained on extensive raw code data without instruction fine-tuning. In this paper, we introduce WizardCoder, which empowers Code LLMs with complex instruction fine-tuning, by adapting the Evol-Instruct method to the domain of code. Through comprehensive experiments on four prominent code generation benchmarks, namely HumanEval, HumanEval+, MBPP, and DS-1000, we unveil the exceptional capabilities of our model. It surpasses all other open-source Code LLMs by a substantial margin. Moreover, our model even outperforms the largest closed LLMs, Anthropic's Claude and Google's Bard, on HumanEval and HumanEval+. Our code, model weights, and data are public at https://github.com/nlpxucan/WizardLM",
         "orkg_categories_flat": [
-            "large language models (llms)",
-            "a>>aaaaaaaaaaatransformer model"
+            "a>>aaaaaaaaaaatransformer model",
+            "large language models (llms)"
         ],
         "papers_with_code_categories_flat": [
             "code generation",
@@ -2582,8 +2582,8 @@
         "doi": "10.48550/arxiv.2305.06161",
         "abstract": "The BigCode community, an open-scientific collaboration working on the responsible development of Large Language Models for Code (Code LLMs), introduces StarCoder and StarCoderBase: 15.5B parameter models with 8K context length, infilling capabilities and fast large-batch inference enabled by multi-query attention. StarCoderBase is trained on 1 trillion tokens sourced from The Stack, a large collection of permissively licensed GitHub repositories with inspection tools and an opt-out process. We fine-tuned StarCoderBase on 35B Python tokens, resulting in the creation of StarCoder. We perform the most comprehensive evaluation of Code LLMs to date and show that StarCoderBase outperforms every open Code LLM that supports multiple programming languages and matches or outperforms the OpenAI code-cushman-001 model. Furthermore, StarCoder outperforms every model that is fine-tuned on Python, can be prompted to achieve 40\\% pass@1 on HumanEval, and still retains its performance on other programming languages. We take several important steps towards a safe open-access model release, including an improved PII redaction pipeline and a novel attribution tracing tool, and make the StarCoder models publicly available under a more commercially viable version of the Open Responsible AI Model license.",
         "orkg_categories_flat": [
-            "transformer model",
-            "large language models (llms)"
+            "large language models (llms)",
+            "transformer model"
         ],
         "papers_with_code_categories_flat": [
             "8k",
@@ -2630,9 +2630,9 @@
         "doi": "10.48550/arxiv.2304.12244",
         "abstract": "Training large language models (LLMs) with open-domain instruction following data brings colossal success. However, manually creating such instruction data is very time-consuming and labor-intensive. Moreover, humans may struggle to produce high-complexity instructions. In this paper, we show an avenue for creating large amounts of instruction data with varying levels of complexity using LLM instead of humans. Starting with an initial set of instructions, we use our proposed Evol-Instruct to rewrite them step by step into more complex instructions. Then, we mix all generated instruction data to fine-tune LLaMA. We call the resulting model WizardLM. Human evaluations on a complexity-balanced test bed and Vicuna's testset show that instructions from Evol-Instruct are superior to human-created ones. By analyzing the human evaluation results of the high complexity part, we demonstrate that outputs from our WizardLM are preferred to outputs from OpenAI ChatGPT. In GPT-4 automatic evaluation, WizardLM achieves more than 90\\% capacity of ChatGPT on 17 out of 29 skills. Even though WizardLM still lags behind ChatGPT in some aspects, our findings suggest that fine-tuning with AI-evolved instructions is a promising direction for enhancing LLMs. Our code and data are public at https://github.com/nlpxucan/WizardLM",
         "orkg_categories_flat": [
-            "transformer model",
             "large language models (llms)",
-            "supervized open-domain complex instruction finetuning"
+            "supervized open-domain complex instruction finetuning",
+            "transformer model"
         ],
         "papers_with_code_categories_flat": [
             "absolute position encodings",
@@ -2784,10 +2784,10 @@
         "doi": "10.48550/arxiv.2308.16149",
         "abstract": "Arabic-centric, foundation model, large-language model, LLM, generative model, instruction-tuned, Jais, Jais-chat",
         "orkg_categories_flat": [
-            "transformer model",
+            "causal language modeling",
             "instruction tuning",
             "large language models (llms)",
-            "causal language modeling"
+            "transformer model"
         ],
         "papers_with_code_categories_flat": [
             "15 ways to contact how can i speak to someone at delta airlines",
@@ -2865,9 +2865,9 @@
         "doi": "10.48550/arxiv.2306.02707",
         "abstract": "Recent research has focused on enhancing the capability of smaller models through imitation learning, drawing on the outputs generated by large foundation models (LFMs). A number of issues impact the quality of these models, ranging from limited imitation signals from shallow LFM outputs; small scale homogeneous training data; and most notably a lack of rigorous evaluation resulting in overestimating the small model's capability as they tend to learn to imitate the style, but not the reasoning process of LFMs. To address these challenges, we develop Orca (We are working with our legal team to publicly release a diff of the model weights in accordance with LLaMA's release policy to be published at https://aka.ms/orca-lm), a 13-billion parameter model that learns to imitate the reasoning process of LFMs. Orca learns from rich signals from GPT-4 including explanation traces; step-by-step thought processes; and other complex instructions, guided by teacher assistance from ChatGPT. To promote this progressive learning, we tap into large-scale and diverse imitation data with judicious sampling and selection. Orca surpasses conventional state-of-the-art instruction-tuned models such as Vicuna-13B by more than 100% in complex zero-shot reasoning benchmarks like Big-Bench Hard (BBH) and 42% on AGIEval. Moreover, Orca reaches parity with ChatGPT on the BBH benchmark and shows competitive performance (4 pts gap with optimized system message) in professional and academic examinations like the SAT, LSAT, GRE, and GMAT, both in zero-shot settings without CoT; while trailing behind GPT-4. Our research indicates that learning from step-by-step explanations, whether these are generated by humans or more advanced AI models, is a promising direction to improve model capabilities and skills.",
         "orkg_categories_flat": [
-            "transformer model",
+            "explanation tuning",
             "large language models (llms)",
-            "explanation tuning"
+            "transformer model"
         ],
         "papers_with_code_categories_flat": [
             "absolute position encodings",
@@ -2934,8 +2934,8 @@
         "doi": "10.48550/arxiv.2306.16636",
         "abstract": "We present the Chinese Elementary School Math Word Problems (CMATH) dataset, comprising 1.7k elementary school-level math word problems with detailed annotations, source from actual Chinese workbooks and exams. This dataset aims to provide a benchmark tool for assessing the following question: to what grade level of elementary school math do the abilities of popular large language models (LLMs) correspond? We evaluate a variety of popular LLMs, including both commercial and open-source options, and discover that only GPT-4 achieves success (accuracy $\\geq$ 60\\%) across all six elementary school grades, while other models falter at different grade levels. Furthermore, we assess the robustness of several top-performing LLMs by augmenting the original problems in the CMATH dataset with distracting information. Our findings reveal that GPT-4 is able to maintains robustness, while other model fail. We anticipate that our study will expose limitations in LLMs' arithmetic and reasoning capabilities, and promote their ongoing development and advancement.",
         "orkg_categories_flat": [
-            "exploring language models in mathematics",
-            "assess the robustness of several top-performing llms by augmenting the original problems in the cmath dataset with distracting information"
+            "assess the robustness of several top-performing llms by augmenting the original problems in the cmath dataset with distracting information",
+            "exploring language models in mathematics"
         ],
         "papers_with_code_categories_flat": [
             "absolute position encodings",
@@ -3008,13 +3008,13 @@
         "doi": "10.18653/v1/2023.emnlp-main.258",
         "abstract": "Generative AI models have shown impressive performance on many Natural Language Processing tasks such as language understanding, reasoning, and language generation. An important question being asked by the AI community today is about the capabilities and limits of these models, and it is clear that evaluating generative AI is very challenging. Most studies on generative LLMs have been restricted to English and it is unclear how capable these models are at understanding and generating text in other languages. We present the first comprehensive benchmarking of generative LLMs - MEGA, which evaluates models on standard NLP benchmarks, covering 16 NLP datasets across 70 typologically diverse languages. We compare the performance of generative LLMs including Chat-GPT and GPT-4 to State of the Art (SOTA) non-autoregressive models on these tasks to determine how well generative models perform compared to the previous generation of LLMs. We present a thorough analysis of the performance of models across languages and tasks and discuss challenges in improving the performance of generative LLMs on low-resource languages. We create a framework for evaluating generative LLMs in the multilingual setting and provide directions for future progress in the field.",
         "orkg_categories_flat": [
-            "question answering",
-            "exploring large language models for multilingual tasks",
             "benchmarking of generative llms - mega, which evaluates models on standard nlp benchmarks",
+            "commonsense reasoning",
+            "exploring large language models for multilingual tasks",
             "natural language inference",
+            "question answering",
             "sequence-labelling with blstm",
-            "summarization",
-            "commonsense reasoning"
+            "summarization"
         ],
         "papers_with_code_categories_flat": [
             "absolute position encodings",
@@ -3069,15 +3069,15 @@
         "doi": "10.18653/v1/2023.findings-emnlp.878",
         "abstract": "Over the last few years, large language models (LLMs) have emerged as the most important breakthroughs in natural language processing (NLP) that fundamentally transform research and developments in the field. ChatGPT represents one of the most exciting LLM systems developed recently to showcase impressive skills for language generation and highly attract public attention. Among various exciting applications discovered for ChatGPT in English, the model can process and generate texts for multiple languages due to its multilingual training data. Given the broad adoption of ChatGPT for English in different problems and areas, a natural question is whether ChatGPT can also be applied effectively for other languages or it is necessary to develop more language-specific technologies. The answer to this question requires a thorough evaluation of ChatGPT over multiple tasks with diverse languages and large datasets (i.e., beyond reported anecdotes), which is still missing or limited in current research. Our work aims to fill this gap for the evaluation of ChatGPT and similar LLMs to provide more comprehensive information for multilingual NLP applications. While this work will be an ongoing effort to include additional experiments in the future, our current paper evaluates ChatGPT on 7 different tasks, covering 37 diverse languages with high, medium, low, and extremely low resources. We also focus on the zero-shot learning setting for ChatGPT to improve reproducibility and better simulate the interactions of general users. Compared to the performance of previous models, our extensive experimental results demonstrate a worse performance of ChatGPT for different NLP tasks and languages, calling for further research to develop better models and understanding for multilingual learning.",
         "orkg_categories_flat": [
-            "to evaluate the performance of chatgpt and llms for nlp tasks in different languages",
-            "part of speech (pos) tagging",
             "common sense reasoning (csr)",
             "exploring large language models for multilingual tasks",
+            "named entity recognition (ner)",
             "natural language inference (nli)",
-            "summarization",
-            "relation classification",
+            "part of speech (pos) tagging",
             "question answering (qa)",
-            "named entity recognition (ner)"
+            "relation classification",
+            "summarization",
+            "to evaluate the performance of chatgpt and llms for nlp tasks in different languages"
         ],
         "papers_with_code_categories_flat": [
             "multilingual nlp",
@@ -3112,9 +3112,9 @@
         "doi": "10.48550/arxiv.2306.05179",
         "abstract": "Despite the existence of various benchmarks for evaluating natural language processing models, we argue that human exams are a more suitable means of evaluating general intelligence for large language models (LLMs), as they inherently demand a much wider range of abilities such as language understanding, domain knowledge, and problem-solving skills. To this end, we introduce M3Exam, a novel benchmark sourced from real and official human exam questions for evaluating LLMs in a multilingual, multimodal, and multilevel context. M3Exam exhibits three unique characteristics: (1) multilingualism, encompassing questions from multiple countries that require strong multilingual proficiency and cultural knowledge; (2) multimodality, accounting for the multimodal nature of many exam questions to test the model's multimodal understanding capability; and (3) multilevel structure, featuring exams from three critical educational periods to comprehensively assess a model's proficiency at different levels. In total, M3Exam contains 12,317 questions in 9 diverse languages with three educational levels, where about 23\\% of the questions require processing images for successful solving. We assess the performance of top-performing LLMs on M3Exam and find that current models, including GPT-4, still struggle with multilingual text, particularly in low-resource and non-Latin script languages. Multimodal LLMs also perform poorly with complex multimodal questions. We believe that M3Exam can be a valuable resource for comprehensively evaluating LLMs by examining their multilingual and multimodal abilities and tracking their development. Data and evaluation code is available at \\url{https://github.com/DAMO-NLP-SG/M3Exam}.",
         "orkg_categories_flat": [
+            "exploring evaluation benchmarks for large language models",
             "proposed a novel benchmark dataset for evaluating llms by offering a multilingual, multimodal, and multi-level assessment",
-            "specific downstream task",
-            "exploring evaluation benchmarks for large language models"
+            "specific downstream task"
         ],
         "papers_with_code_categories_flat": [
             "absolute position encodings",
@@ -3257,8 +3257,8 @@
         "doi": "10.1073/pnas.2318124121",
         "abstract": "<jats:p>There is much excitement about the opportunity to harness the power of large language models (LLMs) when building problem-solving assistants. However, the standard methodology of evaluating LLMs relies on static pairs of inputs and outputs; this is insufficient for making an informed decision about which LLMs are best to use in an interactive setting, and how that varies by setting. Static assessment therefore limits how we understand language model capabilities. We introduce CheckMate, an adaptable prototype platform for humans to interact with and evaluate LLMs. We conduct a study with CheckMate to evaluate three language models (InstructGPT, ChatGPT, and GPT-4) as assistants in proving undergraduate-level mathematics, with a mixed cohort of participants from undergraduate students to professors of mathematics. We release the resulting interaction and rating dataset, MathConverse. By analyzing MathConverse, we derive a taxonomy of human query behaviors and uncover that despite a generally positive correlation, there are notable instances of divergence between correctness and perceived helpfulness in LLM generations, among other findings. Further, we garner a more granular understanding of GPT-4 mathematical problem-solving through a series of case studies, contributed by experienced mathematicians. We conclude with actionable takeaways for ML practitioners and mathematicians: models that communicate uncertainty, respond well to user corrections, and can provide a concise rationale for their recommendations, may constitute better assistants. Humans should inspect LLM output carefully given their current shortcomings and potential for surprising fallibility.</jats:p>",
         "orkg_categories_flat": [
-            "interactive and dynamic evaluation of llms in mathematics",
-            "exploring language models in mathematics"
+            "exploring language models in mathematics",
+            "interactive and dynamic evaluation of llms in mathematics"
         ],
         "papers_with_code_categories_flat": [
             "absolute position encodings",
@@ -3359,8 +3359,8 @@
         "doi": "10.48550/arxiv.2304.02015",
         "abstract": "Large language models have emerged abilities including chain-of-thought to answer math word problems step by step. Solving math word problems not only requires abilities to disassemble problems via chain-of-thought but also needs to calculate arithmetic expressions correctly for each step. To the best of our knowledge, there is no work to focus on evaluating the arithmetic ability of large language models. In this work, we propose an arithmetic dataset MATH 401 to test the latest large language models including GPT-4, ChatGPT, InstrctGPT, Galactica, and LLaMA with various arithmetic expressions and provide a detailed analysis of the ability of large language models. MATH 401 and evaluation codes are released at \\url{https://github.com/GanjinZero/math401-llm}.",
         "orkg_categories_flat": [
-            "propose an arithmetic dataset math 401 to test latest large language models",
-            "exploring language models in mathematics"
+            "exploring language models in mathematics",
+            "propose an arithmetic dataset math 401 to test latest large language models"
         ],
         "papers_with_code_categories_flat": [
             "absolute position encodings",
@@ -3482,9 +3482,9 @@
         "abstract": "Accepted in ECCV2024 as Oral Presentation",
         "orkg_categories_flat": [
             "develops a comprehensive evaluation pipeline, primarily comprised of two elements",
-            "multimodal llms",
+            "exploring evaluation benchmarks for large language models",
             "general language task",
-            "exploring evaluation benchmarks for large language models"
+            "multimodal llms"
         ],
         "papers_with_code_categories_flat": [
             "all",
@@ -3514,15 +3514,15 @@
         "doi": "10.48550/arxiv.2306.13394",
         "abstract": "Multimodal Large Language Model (MLLM) relies on the powerful LLM to perform multimodal tasks, showing amazing emergent abilities in recent studies, such as writing poems based on an image. However, it is difficult for these case studies to fully reflect the performance of MLLM, lacking a comprehensive evaluation. In this paper, we fill in this blank, presenting the first comprehensive MLLM Evaluation benchmark MME. It measures both perception and cognition abilities on a total of 14 subtasks. In order to avoid data leakage that may arise from direct use of public datasets for evaluation, the annotations of instruction-answer pairs are all manually designed. The concise instruction design allows us to fairly compare MLLMs, instead of struggling in prompt engineering. Besides, with such an instruction, we can also easily carry out quantitative statistics. A total of 30 advanced MLLMs are comprehensively evaluated on our MME, which not only suggests that existing MLLMs still have a large room for improvement, but also reveals the potential directions for the subsequent model optimization. The data application manner and online leaderboards are released at https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation.",
         "orkg_categories_flat": [
-            "optical character recognition",
-            "multimodal llms",
-            "general language task",
-            "text translation",
+            "coarse-grained recognition",
             "exploring evaluation benchmarks for large language models",
-            "numerical calculation",
-            "measures both perception and cognition abilities on a total of 14 subtasks",
             "fine-grained recognition",
-            "coarse-grained recognition"
+            "general language task",
+            "measures both perception and cognition abilities on a total of 14 subtasks",
+            "multimodal llms",
+            "numerical calculation",
+            "optical character recognition",
+            "text translation"
         ],
         "papers_with_code_categories_flat": [
             "benchmarking",
@@ -3565,10 +3565,10 @@
         "doi": "10.1609/aaai.v38i16.29767",
         "abstract": "<jats:p>New Natural Langauge Process~(NLP) benchmarks are urgently needed to align with the rapid development of large language models (LLMs). We present Xiezhi, the most comprehensive evaluation suite designed to assess holistic domain knowledge.Xiezhi comprises multiple-choice questions across 516 diverse disciplines ranging from 13 different subjects with 249,587 questions and accompanied by Xiezhi-Specialty with 14,041 questions and Xiezhi-Interdiscipline with 10,746 questions. We conduct evaluation of the 47 cutting-edge LLMs on Xiezhi. Results indicate that LLMs exceed average performance of humans in science, engineering, agronomy, medicine, and art, but fall short in economics, jurisprudence, pedagogy, literature, history, and management. All the evaluation code and data are open sourced in https://github.com/MikeGu721/XiezhiBenchmark</jats:p>",
         "orkg_categories_flat": [
-            "designed to assess holistic domain knowledge",
             "comprehensive domain knowledge",
-            "general language task",
-            "exploring evaluation benchmarks for large language models"
+            "designed to assess holistic domain knowledge",
+            "exploring evaluation benchmarks for large language models",
+            "general language task"
         ],
         "papers_with_code_categories_flat": [
             "align",
@@ -3602,12 +3602,12 @@
         "doi": "10.48550/arxiv.2305.08322",
         "abstract": "New NLP benchmarks are urgently needed to align with the rapid development of large language models (LLMs). We present C-Eval, the first comprehensive Chinese evaluation suite designed to assess advanced knowledge and reasoning abilities of foundation models in a Chinese context. C-Eval comprises multiple-choice questions across four difficulty levels: middle school, high school, college, and professional. The questions span 52 diverse disciplines, ranging from humanities to science and engineering. C-Eval is accompanied by C-Eval Hard, a subset of very challenging subjects in C-Eval that requires advanced reasoning abilities to solve. We conduct a comprehensive evaluation of the most advanced LLMs on C-Eval, including both English- and Chinese-oriented models. Results indicate that only GPT-4 could achieve an average accuracy of over 60%, suggesting that there is still significant room for improvement for current LLMs. We anticipate C-Eval will help analyze important strengths and shortcomings of foundation models, and foster their development and growth for Chinese users.",
         "orkg_categories_flat": [
-            "zero shot",
             "chinese evaluation",
-            "general language task",
             "designed to assess advanced knowledge and reasoning abilities of foundation models in a chinese context",
+            "exploring evaluation benchmarks for large language models",
             "five shot",
-            "exploring evaluation benchmarks for large language models"
+            "general language task",
+            "zero shot"
         ],
         "papers_with_code_categories_flat": [
             "absolute position encodings",

@@ -88,9 +88,6 @@ def add_or_update_entry(data, title, doi):
             "openalex categories": extract_openalex_categories(work),
             "openaire categories": {
                 "subjects": []
-            },
-            "crossref categories": {
-                "subjects": []
             }
         }
         data.append(new_entry)
